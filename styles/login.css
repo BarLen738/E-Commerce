@@ -1,0 +1,166 @@
+main {
+    background: rgb(245, 245, 245);
+    padding: 16px;
+  }
+
+  .logo-busca {
+    width: 100%;
+  }
+
+  .logo {
+    padding-right: 2rem;
+  }
+
+  .logo-buscar {
+    margin-left: 2rem;
+    width: 70%;
+    border-radius: 3rem;
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--input-bg);
+    background-image: url(../assets/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+  }
+  
+  .login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login_title {
+    display: flex;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .login_input__url,
+  .login_input__name {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .login_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 2rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  
+  
+  /* .top_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid var(--cor-primaria);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-branco);
+  } */
+  
+  /* .login_mobile {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border: 1px dashed #c8c8c8;
+    padding: 32px;
+    gap: 16px;
+  } */
+  
+  /* .login_mobile__plus {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 20px;
+    color: #c8c8c8;
+  }
+  .login_mobile__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c8c8c8;
+  } */
+  
+  /* a {
+    text-decoration: none;
+    color: #2a7ae4;
+    font-weight: 100;
+  } 
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+  }
+  .login_tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    gap: 8px;
+  }
+  .login_tablet__box-file {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    width: 254px;
+    height: 152px;
+    background: #ffffff;
+    border: 1px dashed #c8c8c8;
+  }
+  .login_tablet__box-file_description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .login_tablet__btn,
+  .login_desktop__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    height: 51px;
+    border: 1px solid #2a7ae4;
+    background: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2a7ae4;
+  }
+  .login_tablet {
+    display: none;
+  }*/

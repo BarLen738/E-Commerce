@@ -1,0 +1,3 @@
+visual producto ok
+visual add product ok
+visual edit product ok

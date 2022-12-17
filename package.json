@@ -1,0 +1,11 @@
+{
+  "name": "alurageek-grupo3-main",
+  "version": "1.0.0",
+  "description": "--- <p align=\"center\" >      <img width=\"800\" heigth=\"400\" src=\"https://user-images.githubusercontent.com/91544872/153603780-b5e5b462-893b-471c-9b7f-7f57ad2aaff3.png\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
