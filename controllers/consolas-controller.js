@@ -1,7 +1,6 @@
-import { productoServices } from "../servicios/productos-servicios.js";
-//import { formatPrice } from "../formatterPrices.js"
+import { consolaServices } from "../servicios/consolas-servicios.js";
 
-const nuevoProducto = (name, price, imageUrl, id) => {
+const nuevaConsola = (name, price, imageUrl, id) => {
     const card = document.createElement("div");
     const contenido = `
     <div class = "produto">
@@ -20,18 +19,20 @@ const nuevoProducto = (name, price, imageUrl, id) => {
 
 };
 
-const productos = document.querySelector("[data-product]"); //data-attribute
+const consolas = document.querySelector("[data-console]");
 
-const renderProduct = async () => {
+const renderConsole = async() => {
     try {
-        const listaProductos = await productoServices.listaProductos();
-        listaProductos.forEach(elemento => {
-            productos.appendChild(
-                nuevoProducto(
+        const listaConsolas = await consolaServices.listaConsolas();
+        listaConsolas.forEach(elemento => {
+            consolas.appendChild(
+                nuevaConsola(
                     elemento.name,
                     elemento.price,
                     elemento.imageUrl,
-                    elemento.id));
+                    elemento.id
+                )
+            );
         });
     }
     catch (error) {
@@ -39,4 +40,4 @@ const renderProduct = async () => {
     }
 };
 
-renderProduct();
+renderConsole();
