@@ -126,14 +126,42 @@
       "imageUrl": "https://images.unsplash.com/photo-1605901309584-818e25960a8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1019&q=80",
       "price": "360.00",
       "description": "Rellenar",
-      "id": 18
+      "id": 1
     },
     {
       "name": "PlayStation 4",
       "imageUrl": "https://images.unsplash.com/photo-1518908336710-4e1cf821d3d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1013&q=80",
       "price": "500.00",
       "description": "Rellenar",
-      "id": 19
+      "id": 2
+    },
+    {
+      "name": "PlayStation 3",
+      "imageUrl": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "price": "450.00",
+      "description": "Rellenar",
+      "id": 3
+    },
+    {
+      "name": "Super Nintendo",
+      "imageUrl": "https://images.unsplash.com/photo-1587653666447-8a232c92e881?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=581&q=80",
+      "price": "380.00",
+      "description": "Rellenar",
+      "id": 4
+    }, 
+    {
+      "name": "Sega",
+      "imageUrl": "https://images.unsplash.com/photo-1627421383054-488d9c9828f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "price": "350.00",
+      "description": "Rellenar",
+      "id": 5
+    },
+    {
+      "name": "Playstation 1",
+      "imageUrl": "https://images.unsplash.com/photo-1632803227975-b6a5688c9c46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "price": "330.00",
+      "description": "Rellenar",
+      "id": 6
     }
   ]
 }

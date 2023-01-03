@@ -22,6 +22,7 @@ const nuevoProducto = (name, price, imageUrl, id) => {
 
 const productos = document.querySelector("[data-product]"); //data-attribute
 
+
 const renderProduct = async () => {
     try {
         const listaProductos = await productoServices.listaProductos();
