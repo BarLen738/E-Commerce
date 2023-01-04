@@ -1,6 +1,6 @@
 //GET
 
-const listaProductos = () => fetch("http://localhost:3000/producto")
+const listaProductos = () => fetch("http://localhost:3000/producto?_limit=4")
     .then(respuesta => respuesta.json())
     .catch((error) => console.log(error));
 

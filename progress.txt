@@ -1,3 +1,8 @@
-visual producto ok
-visual add product ok
-visual edit product ok
+/* Mobile 360px*/
+@media only screen and (min-width: 767px) {}
+
+/* Tablet 768px */
+@media only screen and (min-width: 1439px) {}
+
+/* Desktop 1440px */
+@media only screen and (min-width: 1440px) {}

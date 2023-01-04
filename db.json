@@ -163,5 +163,49 @@
       "description": "Rellenar",
       "id": 6
     }
+  ],
+  "diverso": [
+    {
+      "name": "Jeans Slouchy",
+      "imageUrl": "https://images.unsplash.com/photo-1591293938201-556f3dc2047e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=515&q=80",
+      "price": "100.00",
+      "description": "Rellenar",
+      "id": 0
+    },
+    {
+      "name": "Remera Fuck",
+      "imageUrl": "https://images.unsplash.com/photo-1503342564391-ebb28fc32ffe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "price": "85.00",
+      "description": "Rellenar",
+      "id": 1
+    },
+    {
+      "name": "Jeans Baggy",
+      "imageUrl": "https://images.unsplash.com/photo-1617354839314-9476d4ca8a3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "price": "120.00",
+      "description": "Rellenar",
+      "id": 2
+    },
+    {
+      "name": "Remera Respect",
+      "imageUrl": "https://images.unsplash.com/photo-1523934882174-f3ebf13fa331?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "price": "50.00",
+      "description": "Rellenar",
+      "id": 3
+    },
+    {
+      "name": "Remera Nirvana",
+      "imageUrl": "https://images.unsplash.com/photo-1495223153807-b916f75de8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "price": "70.00",
+      "description": "Rellenar",
+      "id": 4
+    },
+    {
+      "name": "Remera Ok",
+      "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "price": "80.00",
+      "description": "Rellenar",
+      "id": 0
+    }
   ]
 }

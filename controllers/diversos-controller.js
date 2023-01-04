@@ -1,7 +1,6 @@
-import { productoServices } from "../servicios/productos-servicios.js";
-//import { formatPrice } from "../formatterPrices.js"
+import { diversoServices } from "../servicios/diversos-servicios.js";
 
-const nuevoProducto = (name, price, imageUrl, id) => {
+const nuevoDiverso = (name, price, imageUrl, id) => {
     const card = document.createElement("div");
     const contenido = `
     <div class = "produto">
@@ -12,7 +11,7 @@ const nuevoProducto = (name, price, imageUrl, id) => {
     
     </div>
     `;
-
+    
     card.innerHTML = contenido;
     card.dataset.id = id;
 
@@ -20,18 +19,20 @@ const nuevoProducto = (name, price, imageUrl, id) => {
 
 };
 
-const productos = document.querySelector("[data-product]"); //data-attribute
+const diversos = document.querySelector("[data-diverse]");
 
-const renderProduct = async () => {
+const renderDiverse = async() => {
     try {
-        const listaProductos = await productoServices.listaProductos();
-        listaProductos.forEach(elemento => {
-            productos.appendChild(
-                nuevoProducto(
+        const listaDiversos = await diversoServices.listaDiversos();
+        listaDiversos.forEach(elemento => {
+            diversos.appendChild(
+                nuevoDiverso(
                     elemento.name,
                     elemento.price,
                     elemento.imageUrl,
-                    elemento.id));
+                    elemento.id
+                )
+            );
         });
     }
     catch (error) {
@@ -39,5 +40,4 @@ const renderProduct = async () => {
     }
 };
 
-renderProduct();
-
+renderDiverse();

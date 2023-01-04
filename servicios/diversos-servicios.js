@@ -1,17 +1,17 @@
 //GET
 
-const listaConsolas = () => fetch("http://localhost:3000/consola?_limit=4")
+const listaDiversos = () => fetch("http://localhost:3000/diverso?_limit=4")
     .then(respuesta => respuesta.json())
     .catch((error) => console.log(error));
 
-const listarConsola = (id) => {
-    return fetch(`http://localhost:3000/consola/${id}`)
+const listarDiverso = (id) => {
+    return fetch(`http://localhost:3000/diverso/${id}`)
         .then((respuesta) => { return respuesta.json() })
 };
 
 //POST
-const crearConsola = (name, imageUrl, price) => {
-        return fetch(`http://localhost:3000/consola/`, {
+const crearDiverso = (name, imageUrl, price) => {
+        return fetch(`http://localhost:3000/diverso/`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -31,8 +31,8 @@ const crearConsola = (name, imageUrl, price) => {
     };
 
 //PUT/PATCH
-const alterarConsola = async (id, name, price, description) => {
-        return fetch(`http://localhost:3000/consola/${id}`, {
+const alterarDiverso = async (id, name, price, description) => {
+        return fetch(`http://localhost:3000/diverso/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
@@ -50,8 +50,8 @@ const alterarConsola = async (id, name, price, description) => {
 };
 
 //DELETE
-const borrarConsola = async (id) => {
-    return await fetch(`http://localhost:3000/consola/${id}`, {
+const borrarDiverso = async (id) => {
+    return await fetch(`http://localhost:3000/diverso/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
@@ -59,10 +59,10 @@ const borrarConsola = async (id) => {
         });
 };
 
-export const consolaServices = {
-    listaConsolas,
-    listarConsola,
-    crearConsola,
-    alterarConsola,
-    borrarConsola,
+export const diversoServices = {
+    listaDiversos,
+    listarDiverso,
+    crearDiverso,
+    alterarDiverso,
+    borrarDiverso,
 }

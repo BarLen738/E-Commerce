@@ -217,17 +217,41 @@ nav {
   font-size: 1rem;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+/* Mobile 360px*/
+@media only screen and (min-width: 360px) {
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+  /* nav{
+    width: 100vw;
+  } */
+  .logo img {
+		width: 6vw;
+		height: 4vh;
+	}
+  p .logo-azul {
+    width: 12vw;
+    font-size: 1rem;
+  }
+  p.logo {
+    font-size: 1rem;
+  }
+  .logo-busqueda{
+    width: 100%;
+  }
+  .logo-busqueda input {
+    display: none;
+  }
+  .login-button {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: .9rem;
+  }
+}
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Tablet 768px */
 @media only screen and (min-width: 768px) {}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+/* Desktop 1440px */
+@media only screen and (min-width: 1440px) {}
