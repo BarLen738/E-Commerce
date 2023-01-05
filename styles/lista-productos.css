@@ -113,16 +113,132 @@
   }
 
   /* Mobile 360px*/
-  @media only screen and (min-width: 767px) {
-	header {
-		width: 100vw;
-	}
-	
-	
+  @media only screen and (min-width: 360px) {
+  	.destaque {
+  		width: 100vw;
+  		height: 25vh;
+  		padding: 1rem 0;
+  	}
+
+  	.banner {
+  		padding-top: 3.5rem;
+  	}
+
+  	.banner button {
+  		margin: 0.5rem 1rem;
+  		width: 30vw;
+  		font-size: .8rem;
+  		padding: 0.7rem;
+  	}
+
+  	.banner h1 {
+  		font-size: 1.2rem;
+  		margin-bottom: .5rem;
+  	}
+
+  	.banner h4 {
+  		font-size: .8rem;
+  	}
+
+  	.prod-titulo {
+  		padding: 1rem;
+  	}
+
+  	p {
+  		font-size: 1.2rem;
+  	}
+
+  	.sessao-produtos {
+  		width: 100vw;
+  		padding: 1rem 0;
+  		justify-content: center;
+  	}
+
+  	img {
+  		width: 40vw;
+  		height: 30vh;
+  	}
+
+  	.product-name {
+  		font-size: 1rem;
+  	}
+
+  	.preco::before {
+  		content: "$ ";
+  	}
+
+  	.preco {
+  		font-size: .8rem;
+  		padding-bottom: .3rem;
+  	}
+
+  	.ver-produto {
+  		font-size: .8rem;
+  	}
   }
 
   /* Tablet 768px */
-  @media only screen and (min-width: 1439px) {}
+  @media only screen and (min-width: 768px) {
+  	img {
+  		width: 20vw;
+  		height: 15vh;
+  	}
+	.banner h1 {
+		font-size: 1.8rem;
+    padding-top: 4rem;
+	}
+	.banner h4 {
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	}
+	.banner button {
+		font-size: 1.4rem;
+	}
+  }
 
   /* Desktop 1440px */
-  @media only screen and (min-width: 1440px) {}
+  @media only screen and (min-width: 1440px) {
+	.destaque {
+		height: 30vh;
+	}
+  	.banner h1 {
+  		font-size: 4rem;
+  		/* margin-left: 10rem; */
+  		/* margin-top: 5rem; */
+  	}
+
+  	.banner h4 {
+  		font-size: 3rem;
+  		margin-bottom: 1rem;
+  	}
+
+  	.banner button {
+  		font-size: 2rem;
+  	}
+
+  	.prod-titulo {
+  		padding: 2rem 4rem;
+  	}
+
+  	p {
+  		font-size: 2.2rem;
+  	}
+	.div-verTudo {
+		font-size: 2.2rem;
+		padding: 1rem 3.5rem 0;
+	}
+	.verTudo {
+		width: 2rem;
+		height: 2rem;
+	}
+	.product-name {
+		font-size: 1.5rem;
+	}
+	.preco {
+		font-size: 1.2rem;
+		padding: 0.9rem 0;
+	}
+	.ver-produto {
+		font-size: 1.2rem;
+	}
+  }
