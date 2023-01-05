@@ -23,6 +23,7 @@ const getProducts = (name, price, imageUrl, id) => {
     <img src = "${imageUrl}" alt = "img">
     <h1 class = "product-name"> ${name} </h1>
     <p class = "preco"> ${price} </p>
+    <p class = "id"> ${id} </p>
 
     </div>
     `;
@@ -51,7 +52,7 @@ productos.addEventListener("click", async (evento) => {
 
 const render = async () => {
     try {
-        const listaProductos = await productoServices.listaProductos();
+        const listaProductos = await productoServices.listaTodosProductos();
 
         listaProductos.forEach((producto) => {
             productos.appendChild(

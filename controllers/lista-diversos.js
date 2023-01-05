@@ -50,11 +50,11 @@ diversos.addEventListener("click", async (evento) => {
 
 const renderDiverse = async () => {
     try {
-        const listaDiversos = await diversoServices.listaDiversos();
+        const listaDiversos = await diversoServices.listaTodosDiversos();
 
         listaDiversos.forEach((diverso) => {
             diversos.appendChild(
-                getConsolas(
+                getDiversos(
                     diverso.name,
                     diverso.price,
                     diverso.imageUrl,

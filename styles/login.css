@@ -1,73 +1,108 @@
 main {
-    background: rgb(245, 245, 245);
-    padding: 16px;
-  }
+  background: rgb(245, 245, 245);
+  padding: 16px;
+}
 
+.logo-busca {
+  width: 100%;
+}
+
+.logo {
+  padding-right: 2rem;
+}
+
+.logo-buscar {
+  margin-left: 2rem;
+  width: 70%;
+  border-radius: 3rem;
+  padding: 1rem 1rem;
+  border: none;
+  background-color: var(--input-bg);
+  background-image: url(../assets/lupa.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
+}
+
+.login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_title {
+  display: flex;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login_input__url,
+.login_input__name {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.login_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 2rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Mobile 360px*/
+@media only screen and (min-width: 360px) {
   .logo-busca {
-    width: 100%;
+    padding: 0;
   }
-
-  .logo {
-    padding-right: 2rem;
+  main {
+    padding: 2rem 0;
   }
-
-  .logo-buscar {
-    margin-left: 2rem;
-    width: 70%;
-    border-radius: 3rem;
-    padding: 1rem 1rem;
-    border: none;
-    background-color: var(--input-bg);
-    background-image: url(../assets/lupa.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 95%;
-  }
-  
-  .login {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
   .login_title {
-    display: flex;
-    font-weight: 700;
-    font-size: 2rem;
-    margin: 0 auto;
-    justify-content: center;
-    padding: 2rem;
+    font-size: 1.2rem;
   }
-  
-  .login_input__url,
-  .login_input__name {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 1rem;
-    border-radius: 0.4rem;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-top: 2rem;
+  .login_input__url, .login_input__name {
+    margin-top: 0;
+    font-size: .8rem;
+    width: 70vw;
+    margin-bottom: 1rem;
+}
+.login button {
+  float: none;
+    margin: 2rem auto;
+    font-size: .8rem;
+}
+
   }
-  
-  .login_btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 2rem;
-    margin-top: 2rem;
-    font-weight: 400;
-    font-size: 1rem;
+
+
+/* Tablet 768px */
+@media only screen and (min-width: 768px) {
+  .login_input__url, .login_input__name {
+    width: 50vw;
   }
-  
-  
-  
-  /* .top_menu {
+}
+
+/* Desktop 1440px */
+@media only screen and (min-width: 1440px) {}
+
+
+/* .top_menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,8 +115,8 @@ main {
     color: var(--cor-primaria);
     background-color: var(--cor-branco);
   } */
-  
-  /* .login_mobile {
+
+/* .login_mobile {
     height: 70px;
     display: flex;
     flex-direction: column;
@@ -92,8 +127,8 @@ main {
     padding: 32px;
     gap: 16px;
   } */
-  
-  /* .login_mobile__plus {
+
+/* .login_mobile__plus {
     font-weight: 400;
     font-size: 50px;
     line-height: 20px;
@@ -105,8 +140,8 @@ main {
     line-height: 20px;
     color: #c8c8c8;
   } */
-  
-  /* a {
+
+/* a {
     text-decoration: none;
     color: #2a7ae4;
     font-weight: 100;

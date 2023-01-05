@@ -251,6 +251,7 @@ nav {
   .contato {
     flex-direction: column;
     width: 100vw;
+    margin-top: 2rem;
   }
 
   .links-uteis a {
@@ -280,10 +281,6 @@ nav {
     /* width: 100vw; */
   }
 
-  div.label-float {
-    /* width: 100vw; */
-  }
-
   .form button {
     font-size: .9rem;
     border-radius: 0;
@@ -309,8 +306,8 @@ nav {
   }
 
   .logo img {
-    width: 5vw;
-    height: 2vh;
+    width: 3vw;
+    height: 4vh;
   }
 
   .banner {
@@ -338,17 +335,14 @@ nav {
     justify-content: space-between;
     padding: 2rem 0;
   }
+  .links-uteis {
+    margin-left: 3rem;
+  }
 
   .links-uteis a {
-    /* width: 30vw; */
     text-align: left;
     font-size: .9rem;
     margin-left: 1rem;
-  }
-
-  .form {
-    /* width: 60vw; */
-    /* float: left; */
   }
 
   .form input {
@@ -362,26 +356,16 @@ nav {
     width: 25vw;
   }
   .referencia {
-    /* margin-bottom: 1rem; */
+    margin-left: 3rem;
   }
-
   .referencia img {
     margin: 0;
   }
-
-  div.label-float {
-    /* width: 42vw; */
+  p.firma {
+    text-align: center;
+    font-size: .7rem;
+    padding: 1rem 0;
   }
-
-  .form p {
-    /* width: 42vw; */
-    /* margin-top: 0; */
-  }
-
-  /* p.firma {
-    padding: 2rem 0;
-    margin-left: -10rem;
-  } */
 }
 
 /* Desktop 1440px */

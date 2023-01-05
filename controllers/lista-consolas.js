@@ -50,7 +50,7 @@ consolas.addEventListener("click", async (evento) => {
 
 const renderConsola = async () => {
     try {
-        const listaConsolas = await consolaServices.listaConsolas();
+        const listaConsolas = await consolaServices.listaTodasConsolas();
 
         listaConsolas.forEach((consola) => {
             consolas.appendChild(

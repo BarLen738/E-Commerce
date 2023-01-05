@@ -1,8 +1,8 @@
 /* Mobile 360px*/
-@media only screen and (min-width: 767px) {}
+@media only screen and (min-width: 360px) {}
 
 /* Tablet 768px */
-@media only screen and (min-width: 1439px) {}
+@media only screen and (min-width: 768px) {}
 
 /* Desktop 1440px */
 @media only screen and (min-width: 1440px) {}

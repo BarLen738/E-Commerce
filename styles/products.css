@@ -127,6 +127,80 @@ img {
   border-color: transparent;
 }
 
+/* Mobile 360px*/
+@media only screen and (min-width: 360px) {
+  .logo-busca {
+    padding: 0;
+  }
+  .logo p {
+    padding: 0;
+  }
+  .product-button {
+    border-radius: 0;
+    padding: 1rem;
+    font-size: .8rem;
+  }
+  .products_title {
+    padding: 2rem 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  p {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+  }
+  .products-section{
+    padding: 0 1rem;
+    justify-content: flex-start;
+  }
+  img {
+    width: 40vw;
+    height: 30vh;
+    border-radius: 0;
+  }
+  .container {
+    justify-content: flex-end;
+    top: 2.2rem;
+  }
+  .produto {
+    padding: 0;
+    margin: 0 0 -2rem;
+  }
+  .product-name {
+    font-size: 1rem;
+  }
+  .preco {
+    font-size: 1rem;
+  }
+  .preco::before {
+    content: "$";
+  }
+  p.id {
+    font-size: .8rem;
+  }
+  p.id::before {
+    content: "#";
+  }
+}
+
+/* Tablet 768px */
+@media only screen and (min-width: 768px) {
+  .products_title {
+    flex-direction: row;
+    padding: 2rem 3rem 0;
+  }
+  img {
+    width: 20vw;
+    height: 30vh;
+  }
+  .products-section {
+    padding: 0 2.5rem 0 4.5rem;
+  }
+}
+
+/* Desktop 1440px */
+@media only screen and (min-width: 1440px) {}
 
 
 
