@@ -116,7 +116,7 @@
   @media only screen and (min-width: 360px) {
   	.destaque {
   		width: 100vw;
-  		height: 45vh;
+  		height: 55vh;
   		padding: 1rem 0;
   	}
 
@@ -195,7 +195,7 @@
 		font-size: 1.4rem;
 	}
 	.destaque {
-		height: 35vh;
+		height: 45vh;
 	}
   }
 
