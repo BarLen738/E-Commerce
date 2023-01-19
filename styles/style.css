@@ -16,8 +16,6 @@
 textarea:focus,
 input:focus {
   box-shadow: 0 0 0 0;
-  border: 0 none;
-  outline: 0;
 }
 
 input::placeholder,
@@ -54,9 +52,20 @@ nav {
 .logo-busca {
   display: flex;
   flex-direction: row;
-  padding: 0 8rem;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo-buscar {
+  width: 50%;
+  border-radius: 3rem;
+  padding: 1rem 1rem;
+  border: none;
+  background-color: var(--input-bg);
+  background-image: url(../assets/lupa.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
 }
 
 .logo-busqueda {
@@ -67,7 +76,6 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  width: 20%;
 }
 
 .logo img {
@@ -112,7 +120,6 @@ nav {
   border: none;
   padding: 2rem;
   border-radius: 0.4rem;
-  margin-left: -12rem;
 }
 
 .login button:hover {
@@ -132,8 +139,6 @@ nav {
 
 .referencia {
   display: flex;
-  width: 25%;
-  margin-left: 1.5rem;
 }
 
 .referencia img {
@@ -175,11 +180,12 @@ nav {
   flex-direction: column;
   position: relative;
   width: 50%;
+  
 }
 
 .form p {
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .form input {
@@ -243,31 +249,54 @@ nav {
   }
 
   .login button {
-    padding: 1rem;
+    padding: .8rem;
+    font-size: .7rem;
     float: right;
     border-radius: 0;
   }
 
   .contato {
     flex-direction: column;
+    align-items: center;
     width: 100vw;
     margin-top: 2rem;
   }
 
-  .links-uteis a {
+  .logo-pie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+  }
+
+  p.logo-pie-alura-azul {
+    font-weight: bolder;
+    color: var(--azul-destaque);
+  }
+
+  img.logo-pie-img {
+    width: 7vw;
+    height: 5vh;
+    margin-right: .3rem;
+  }
+
+  .links-uteis {
+    display: flex;
     width: 100vw;
+  }
+
+  .links-uteis a {
     text-align: center;
     font-size: .9rem;
   }
 
   .referencia img {
-    margin-left: 4.3rem;
     margin-bottom: 1.2rem;
   }
 
   .form {
     width: 100vw;
-    padding: 0 1rem;
+padding-left: 2rem;
   }
   .form input {
     width: 80vw;
@@ -278,7 +307,6 @@ nav {
   .form p {
     margin-left: 1rem;
     margin-top: 2rem;
-    /* width: 100vw; */
   }
 
   .form button {
@@ -292,8 +320,11 @@ nav {
     font-size: .7rem;
     padding: 1rem 3rem;
     font-style: italic;
+    text-align: center;
   }
 }
+
+
 
 /* Tablet 768px */
 @media only screen and (min-width: 768px) {
@@ -309,31 +340,16 @@ nav {
     width: 3vw;
     height: 4vh;
   }
-
-  .banner {
-    padding-top: 8rem;
-  }
-
-  .banner h1 {
-    font-size: 2.5rem;
-  }
-
-  .banner h4 {
-    font-size: 1.7rem;
-    margin-top: 1rem;
-  }
-
-  .banner button {
-    font-size: 1rem;
-    padding: 0.7rem 1rem;
-    width: auto;
-    margin-top: 1rem;
-  }
-
   .contato {
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem 0;
+  }
+
+  img.logo-pie-img {
+    width: 5vw;
+    height: 7vh;
+    margin-left: 1rem;
   }
   .links-uteis {
     margin-left: 3rem;
@@ -385,8 +401,9 @@ nav {
   .contato {
     padding: 3rem;
   }
-  .links-uteis {
-    padding-left: 10rem;
+  .links-uteis a {
+    font-size: 1rem;
+    text-align: center;
   }
 
 }

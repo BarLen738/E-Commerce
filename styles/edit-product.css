@@ -1,3 +1,5 @@
+@media only screen and (min-width: 360px) {
+
 main {
   background: rgb(245, 245, 245);
   padding: 16px;
@@ -5,23 +7,7 @@ main {
 
 .logo-busca {
   width: 100%;
-}
-
-.logo-buscar {
-  margin-left: 2rem;
-  width: 70%;
-  border-radius: 3rem;
-  padding: 1rem 1rem;
-  border: none;
-  background-color: var(--input-bg);
-  background-image: url(../assets/lupa.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-position-x: 95%;
-}
-
-.logo {
-  padding-right: 2rem;
+  justify-content: space-around;
 }
 
 .top_menu {
@@ -65,8 +51,8 @@ main {
 }
 
 img {
-  width: 17vw;
-  height: 30vh;
+  max-width: 60vw;
+  height: 200px;
   margin-bottom: 2rem;
 }
 
@@ -83,9 +69,6 @@ img {
 .product-add_textarea__description {
   width: 40%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
   padding: 1rem 1rem;
   border-radius: .4rem;
   font-weight: 400;
@@ -112,4 +95,32 @@ img {
   color: var(--texto-destaque);
   border: none;
   border-radius: .4rem;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+  .logo img {
+    width: 7vw;
+    height: 4vh;
+  }
+
+  .img-producto {
+    min-width: 60vw;
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .logo img {
+    width: 4vw;
+    height: 4vh;
+  }
+  .img-producto {
+    min-width: 60vw;
+    height: 500px;
+  }
+  .product-add_input__url, .product-add_input__name, .product-add_input__price, .product-add_textarea__description{
+    width: 65%;
+  }
 }
