@@ -13,6 +13,7 @@
 - CSS
 - JS
 - JSON
+- Node.js 
 
 # :arrow_heading_down: Para descargarme
 
